@@ -1,0 +1,22 @@
+= asciidoctor-html5ruby
+
+This package provides a macro of the ruby element of html5 for asciidoctor.
+
+== Installation
+
+----
+gem install asciidoctor-html5ruby
+----
+
+== Quick Usage
+
+The following code is rendered as +<ruby>楽聖少女<rt>がくせいしょうじょ</rt></ruby>+
+
+.sample.adoc
+----
+html5ruby:楽聖少女[がくせいしょうじょ]
+----
+
+----
+ruby -rasciidoctor-html5ruby -S asciidoctor sample.adoc
+----
