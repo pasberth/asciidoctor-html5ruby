@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'asciidoctor-html5ruby'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.licenses    = ['MIT']
   s.summary     = "First release for me."
   s.description = "This package provides a macro of the ruby element of html5 for asciidoctor."
