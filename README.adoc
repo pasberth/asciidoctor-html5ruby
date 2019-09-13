@@ -18,5 +18,5 @@ html5ruby:楽聖少女[がくせいしょうじょ]
 ----
 
 ----
-ruby -rasciidoctor-html5ruby -S asciidoctor sample.adoc
+ruby -r asciidoctor-html5ruby -S asciidoctor sample.adoc
 ----
